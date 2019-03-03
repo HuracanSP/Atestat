@@ -12,6 +12,7 @@ Requirements :
    -password : rootpassword
    -database : mysqlcsharp
    -table : users  -> In tabela users trebuie sa exista coloanele id, username, password, admin(1-este admin; 0-nu este admin)
+                   ->Fiecare dintre acestea trebuie sa fie unice fiecarui element inserat
    
 In VS : 
   - punem path-ul catre rootCA.pem in public Form1()   
